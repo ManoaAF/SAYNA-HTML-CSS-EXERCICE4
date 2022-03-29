@@ -1,8 +1,31 @@
+@import url('http://fonts.cdnfonts.com/css/far-from-homecoming');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
 nav {
     background-color: #B11313;
 }
 
 a {
     text-decoration: none;
+    color: #ffff;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    color: white;
+    padding-left: 5%;
+    padding-right: 60%;
+}
+
+h1,
+h2 {
+    font-family: 'Far From Homecoming', sans-serif;
+    ;
+    color: #ffff;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
     color: #ffff;
 }
