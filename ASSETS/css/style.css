@@ -1,31 +1,139 @@
 @import url('http://fonts.cdnfonts.com/css/far-from-homecoming');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
-nav {
-    background-color: #B11313;
+:root {
+    --rouge: #b11313;
+    --jaune: #F1C530;
+    --bleu: #114C92;
+    --noir: #000;
+    --blanc: #FFFF;
+}
+
+header {
+    background-color: var(--rouge);
 }
 
 a {
     text-decoration: none;
-    color: #ffff;
+    color: var(--blanc);
 }
 
-.text-block {
+.text-block-home {
     position: absolute;
     bottom: 30%;
     left: 10%;
-    color: white;
+    color: var(--blanc);
     padding-left: 5%;
     padding-right: 60%;
+}
+
+.text-block-adversaire {
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    color: var(--blanc);
+    padding-left: 5%;
+    padding-right: 60%;
+}
+
+.text-block-héros1 {
+    position: absolute;
+    bottom: 55%;
+    left: 8%;
+    color: var(--blanc);
+    padding-left: 5%;
+    padding-right: 60%;
+}
+
+.text-block-héros2 {
+    position: absolute;
+    bottom: -100%;
+    left: 6%;
+    color: var(--blanc);
+    padding-left: 5%;
+    padding-right: 60%;
+}
+
+.text-block-héros3 {
+    background-color: var(--bleu);
+    text-align: justify;
+    color: var(--blanc);
+    position: relative;
+}
+
+.text-block-bonus {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: var(--blanc);
+    padding-left: 5%;
+    padding-right: 60%;
+}
+
+.text-block-àpropos {
+    position: absolute;
+    bottom: 60%;
+    left: 10%;
+    color: var(--blanc);
+    padding-left: 5%;
+    padding-right: 60%;
+}
+
+ul {
+    color: var(--blanc);
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1,
 h2 {
     font-family: 'Far From Homecoming', sans-serif;
     ;
-    color: #ffff;
+    color: var(--blanc);
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
-    color: #ffff;
+    color: var(--blanc);
+}
+
+.form-control {
+    color: var(--blanc);
+    border: var(--blanc);
+    width: 100%;
+    border-radius: 1em;
+}
+
+.card-body-home {
+    padding: 5%;
+}
+
+.card-body-adv {
+    border: var(--noir);
+    border-radius: 15px;
+}
+
+.card-text {
+    text-align: justify;
+    text-justify: distribute-all-lines;
+    color: var(--blanc);
+}
+
+#cinéma {
+    background-color: var(--rouge);
+}
+
+footer {
+    background-color: var(--noir);
+}
+
+.form-select {
+    color: #fff;
+    background-color: #b11313;
+    border-radius: 1em;
+}
+
+#socialmedia img {
+    background-color: var(--rouge);
+    border: var(--noir);
+    border-radius: 50%;
+    padding: 1%;
 }
